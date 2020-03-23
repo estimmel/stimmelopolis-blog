@@ -1,1 +1,18 @@
-theme: jekyll-theme-minimal
+title: Stimmelopolis
+author: Eric Stimmel
+description: the public side
+feed_url: http://stimmelopolis.com/blog/feed.xml
+permalink: /:year/:month/:day/:title
+paginate: 5
+markdown: kramdown
+kramdown:
+    syntax_highlighter: rouge
+    syntax_highlighter_opts:
+        css_class: 'highlight'
+        span:
+            line_numbers: false
+        block:
+            class: 'line-%i'
+            line_numbers: false
+plugins:
+  - jekyll-feed

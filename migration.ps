@@ -1,0 +1,6 @@
+$masterfile = $("master.txt")
+Set-Content -Path $masterfile "master list of files"
+Get-ChildItem -Recurse -File -Exclude $masterfile -Filter *.txt | ForEach-Object {
+    $filecontents = Get-Content $_.FullName
+    Add-Content -Path $masterfile $($_.FullName + ", " + $filecontents)
+}

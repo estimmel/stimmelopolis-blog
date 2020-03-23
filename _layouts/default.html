@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+		    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			{% feed_meta %}
+		</head>
+		<body>
+			<header>
+				<span id="maintitlelink"><a href="/">{{ site.title }}</a></span>
+				<span id="byline">by Eric Stimmel</span>
+			</header>
+			<div class="container">
+			
+			{{ content }}
+			
+			</div><!-- /.container -->
+			<footer>
+	    		<span id="copyright">© 2010-{{ 'now' | date: "%Y" }}, Eric Stimmel</span>
+			<span id="rss"><a href="{{ site.feed_url }}">RSS</a></span>
+			</footer>
+		</body>
+	</html>
