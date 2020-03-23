@@ -1,0 +1,26 @@
+---
+layout: default
+title: Stimmelopolis
+---
+{% for post in paginator.posts %}
+<h2><a href="{{ post.url }}" title="Permalink to '{{ post.title }}'">{{ post.title }}</a></h2> 
+<span id="date">{{ post.date | date: "%A, %B %-d, %Y" }}</span>
+	<div class="post">
+		{{ post.content }}
+	</div>
+{% endfor %}
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Newer</a>
+  {% else %}
+    <span>&laquo; Newer</span>
+  {% endif %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}">Older &raquo;</a>
+  {% else %}
+    <span>Older &raquo;</span>
+  {% endif %}
+</div>
+{% endif %}
