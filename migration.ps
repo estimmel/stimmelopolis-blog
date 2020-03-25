@@ -1,3 +1,5 @@
+# this is not a functioning migration script
+
 $masterfile = $("master.txt")
 Set-Content -Path $masterfile "master list of files"
 Get-ChildItem -Recurse -File -Exclude $masterfile -Filter *.txt | ForEach-Object {
