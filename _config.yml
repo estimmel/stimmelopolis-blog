@@ -2,7 +2,6 @@ title: Stimmelopolis
 author: Eric Stimmel
 description: the public side
 feed_url: http://stimmelopolis.com/blog/feed.xml
-url: https://estimmel.github.io/stimmelopolis-blog/
 permalink: /:year/:month/:day/:title
 paginate: 5
 markdown: kramdown
