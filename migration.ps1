@@ -8,7 +8,7 @@ $source = $(".\old-blog-temp\")
 $destination = $(".\_posts\")
 
 # copy all the images to the right folders
-Get-ChildItem -Recurse $source -Filter *.jpg | ForEach-Object {
+Get-ChildItem -Recurse $source -Include ('*.jpg', '*.jpeg', '*.heic', '*.gif', '*.png') | ForEach-Object {
     $newimage = $(".\images\posts\" + $_.Directory.Name + "\" + $_.Name)
     Write-Debug ("Source Image:   " + $_.FullName)
     Write-Debug ("New Image:      " + $newimage)
@@ -33,7 +33,7 @@ Get-ChildItem -Recurse $source -Filter *.txt | ForEach-Object {
            -replace "(?ms)^Tags:", "tags:" `
            -replace "(?ms)^Text:", "---" `
            -replace "`nSlug:.*", "" `
-           -replace '\(image:\s(.*?)\.jpg.*?link:\s(.*?\.jpg)\)', "![`$1](.\images\posts\$foldername\`$2)" `
+           -replace '\(image:\s(.*?)(\.jpg|jpeg|heic|gif|png).*?(?:link:\s.*?\.(?:jpg|jpeg|heic|gif|png))?\)', "![`$1](.\images\posts\$foldername\`$1`$2)" `
            # line above uses double quotes to expand the powershell variable and escape the regex variables with a backtick
            # explained here https://stackoverflow.com/questions/40682650/renaming-files-by-reformatting-existing-filenames-placeholders-in-replacement/40683667#40683667
         } | Set-Content ($destination + $newfile)
