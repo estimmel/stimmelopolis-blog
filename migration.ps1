@@ -18,6 +18,7 @@ Get-ChildItem -Recurse $source -Filter *.jpg | ForEach-Object {
 
 # copy all the blog text files
 Get-ChildItem -Recurse $source -Filter *.txt | ForEach-Object {
+    $foldername = $_.Directory.Name
     $newfile = $_.Directory.Name + ".md" -replace '([0-9]{4})([0-9]{2})([0-9]{2})', '$1-$2-$3'
     Write-Debug ("Old Filename:    " + $_.FullName)
     Write-Debug ("Post Title:      " + $_.Directory.Name)
@@ -32,9 +33,9 @@ Get-ChildItem -Recurse $source -Filter *.txt | ForEach-Object {
            -replace "(?ms)^Tags:", "tags:" `
            -replace "(?ms)^Text:", "---" `
            -replace "`nSlug:.*", "" `
-           -replace '\(image:\s(.*?)\.jpg.*?link:\s(.*?\.jpg)\)', '![$1](.\images\posts\--path--\$2)'
-           # line above, need to figure out how to put $_.Directory.Name where '--path--' is...
-           # possibly something like this https://stackoverflow.com/questions/40682650/renaming-files-by-reformatting-existing-filenames-placeholders-in-replacement/40683667#40683667
+           -replace '\(image:\s(.*?)\.jpg.*?link:\s(.*?\.jpg)\)', "![`$1](.\images\posts\$foldername\`$2)" `
+           # line above uses double quotes to expand the powershell variable and escape the regex variables with a backtick
+           # explained here https://stackoverflow.com/questions/40682650/renaming-files-by-reformatting-existing-filenames-placeholders-in-replacement/40683667#40683667
         } | Set-Content ($destination + $newfile)
     Write-Debug ("--- --- ---")
 }
