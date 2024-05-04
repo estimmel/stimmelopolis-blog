@@ -5,8 +5,7 @@ author: Eric Stimmel
 date: 2016-08-26
 --- 
 
-(image: ryan-widger.jpeg
-jpeg)
+![ryan-widger](.\images\posts\20160826-remembering-a-dear-friend\ryan-widger.jpg)
 
 My friend Ryan 
 
