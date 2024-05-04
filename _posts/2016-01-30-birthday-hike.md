@@ -1,29 +1,7 @@
 ---
 layout: post
-Articlemeta: 
-
-----
-
 title: Birthday Hike
-
-----
-
 date: 2016-01-30
-
-----
-
-description: 
-
-----
-
-tags: 
-
-----
-
-Articlecontent: 
-
-----
-
 --- 
 
 ![tell-me-more](.\images\posts\20160130-birthday-hike\tell-me-more.jpg)

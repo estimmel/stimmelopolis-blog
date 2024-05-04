@@ -1,17 +1,8 @@
 ---
 layout: post
 title: Kirby, Dropbox, and Workflow
-
-----
-
 author: Eric Stimmel
-
-----
-
 date: 2016-02-10
-
-----
-
 --- 
 
 ![IMG_6228.](.\images\posts\20160210-kirby-dropbox-and-workflow\IMG_6228.png)

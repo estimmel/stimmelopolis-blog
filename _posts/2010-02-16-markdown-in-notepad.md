@@ -1,17 +1,8 @@
 ---
 layout: post
-author: 1
-
-----
-
+author: Eric Stimmel
 title: Markdown in Notepad++
-
-----
-
 date: 2010-02-16
-
-----
-
 --- 
 
 I recently (recently as in about an hour ago) discovered a way to use [Notepad++][], my text editor of choice on Windows, to process [Markdown][] files into html without having to jump into DOS and run do it from the command line. I've been trying to keep my notes in Markdown for awhile now because I like that I can easily publish them to a blog or webpage without fighting with the markup. I also like the small bit of discipline it gives to my text files and the opportunity to tinker around with scripting in the process. Since I don't really blog that much or publish any html documents to speak of, it's more of an affectation than a truely useful exercise. That said, I still find myself writing in Markdown with a lingering feeling that the future is all in a browser.

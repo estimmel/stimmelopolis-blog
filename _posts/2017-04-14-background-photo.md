@@ -1,29 +1,8 @@
 ---
 layout: post
-Articlemeta: 
-
-----
-
 title: Background
-
-----
-
 date: 2017-04-14
-
-----
-
 description: 
-
-----
-
-tags: 
-
-----
-
-Articlecontent: 
-
-----
-
 --- 
 
 An idea someone should make...

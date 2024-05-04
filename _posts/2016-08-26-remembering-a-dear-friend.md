@@ -1,17 +1,8 @@
 ---
 layout: post
 title: Remembering a dear friend
-
-----
-
 author: Eric Stimmel
-
-----
-
 date: 2016-08-26
-
-----
-
 --- 
 
 (image: ryan-widger.jpeg
