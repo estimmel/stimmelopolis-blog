@@ -3,7 +3,7 @@ layout: default
 title: Stimmelopolis
 ---
 {% for post in paginator.posts %}
-<h2><a href="{{ post.url }}" title="Permalink to '{{ post.title }}'">{{ post.title }}</a></h2> 
+<h2><a href="{{ site.baseurl }}{{ post.url }}" title="Permalink to '{{ post.title }}'">{{ post.title }}</a></h2> 
 <span id="date">{{ post.date | date: "%A, %B %-d, %Y" }}</span>
 	<div class="post">
 		{{ post.content }}
