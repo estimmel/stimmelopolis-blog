@@ -1,10 +1,10 @@
-title: Stimmelopolis Blog
+title: Stimmelopolis
 author: Eric Stimmel
 description: the public side
 baseurl: /stimmelopolis-blog
 feed_url: http://stimmelopolis.com/blog/feed.xml
 permalink: /:year/:month/:day/:title
-paginate: 5
+paginate: 10
 markdown: kramdown
 kramdown:
     syntax_highlighter: rouge
