@@ -11,7 +11,7 @@ date: 2005-10-03 02:05:00
 
 i went to see 2046 tonight... i had to drive an hour to ann arbor to see it since that's the only place in michigan showing the film [ as i missed the grand 3 day run it had in detroit a couple weeks ago, guh ] but i think it was well worth the drive. there are some odd moments in the film [ corny lines and situations ] that took me out of it, but the imagery and music and themes are so beautiful. i won't review it here, but there are some links to follow below if you want to read some things... not comprehensive or all positive, but they're fair... and there were people who walked out while i was watching it too... but i couldn't have been moved from my seat.
 
-![cover](.\images\posts\2005-10-03-do-you-know-what-people-did-in-the-old-days\39m.jpg)
+![cover](/images/posts/2005-10-03-do-you-know-what-people-did-in-the-old-days/39m.jpg)
 
 [Official Site - Sony][]  
 [http://www.offoffoff.com/film/2005/2046.php][]  

@@ -8,7 +8,7 @@ date: 2005-04-08 23:44:00
 
 first of all i received a happy letter that may influence my plans for the summer... andy and i were selected/commissioned to design and build a bench for the detroit metro YMCA... after receiving our portfolio back a couple days ago with no letter indicating one way or the other we just assumed we had not been selected. but, as you can read below, that is not the case...
 
-![ymca-letter](.\images\posts\20050408-a-couple-of-things-about-today\ymca-letter.jpg)
+![ymca-letter](/images/posts/20050408-a-couple-of-things-about-today/ymca-letter.jpg)
 
 second, i saw a beautiful project by two of my fellow students that attempts to give a last breath to a structure slated for demolition... there are still some decisions to be made about how the project will be treated in the coming days/weeks, but there was a real poetic beauty to the work that was inspiring and enlightening [refreshingly] about the people who had worked through the project... you can see a couple of images [here][]
 
