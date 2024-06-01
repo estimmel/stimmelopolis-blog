@@ -10,7 +10,7 @@ So many times I read [xkcd][] and get a [glimpse][] of that [once possible futur
 
 ![http://imgs.xkcd.com/comics/im_an_idiot.](http://imgs.xkcd.com/comics/im_an_idiot.png)
 
-This, sadly or not, is *not* a true story for me, but the circumstances and \\*ahem\\* tendencies are all pretty much par for the course. 
+This, sadly or not, is *not* a true story for me, but the circumstances and *ahem* tendencies are all pretty much par for the course. 
 
 ?
 
